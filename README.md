@@ -5,7 +5,7 @@ Create-Directory-With-Date in Windows Prompt DOS
 <li> Access Command Prompt (DOS) or Powershell </li>
 <li> Type commands below :</li>
 <h4>
-set day=%date:~0,2%
+set day=%date:~0,2% <br>
 set month=%date:~3,2%
 if %mes%==01 set mes=Jan
 if %mes%==02 set mes=Feb
